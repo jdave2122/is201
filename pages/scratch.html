@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Scratch Page: Hiking Adventures</title>
+    <!-- The path to the CSS file is now relative to its new location -->
+    <link rel="stylesheet" href="css/custom-styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- This is the first styled div -->
+        <div class="header">
+            <h1>My Passion: Hiking the Great Outdoors</h1>
+            <p>Exploring trails, peaks, and everything in between.</p>
+            <nav>
+                <!-- This path goes UP one level to the root to find index.html -->
+                <a href="../index.html">Back to Professional Site</a> |
+                <a href="#tableau-section">Jump to Trail Data</a> |
+                <!-- This path now points to a file in the SAME folder -->
+                <a href="app.html">Try My Web App</a>
+            </nav>
+        </div>
+
+        <!-- This is the second styled div -->
+        <div class="content-block">
+            <h2>Why I Hike</h2>
+            <p>Hiking is more than just a walk; it's an opportunity to disconnect from the digital world and reconnect with nature. It challenges me physically and mentally, and the reward is always a breathtaking view and a clear mind.</p>
+            
+            <!-- This path assumes your 'img' folder is INSIDE your 'pages' folder. -->
+            <img src="img/hiking-photo.jpg" alt="A scenic mountain trail at sunrise" class="feature-image">
+            
+        </div>
+
+        <!-- This is the third styled div -->
+        <div class="content-block">
+            <!-- Requirement: An unordered list embedded in an ordered list -->
+            <h2>My Hiking Essentials Checklist</h2>
+            <ol>
+                <li>
+                    <strong>The Ten Essentials (Safety):</strong>
+                    <ul>
+                        <li>Navigation (map, compass, GPS)</li>
+                        <li>Sun Protection (sunglasses, sunscreen)</li>
+                        <li>Insulation (extra layers of clothing)</li>
+                        <li>Illumination (headlamp or flashlight)</li>
+                        <li>First-Aid Supplies</li>
+                    </ul>
+                </li>
+                <li><strong>Personal Gear:</strong>
+                    <ul>
+                        <li>Broken-in Hiking Boots</li>
+                        <li>Backpack (20-30 liters)</li>
+                        <li>Plenty of water and snacks</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="content-block">
+            <!-- UPDATED YouTube video -->
+            <h2>Cinematic Hiking Inspiration</h2>
+            <p>This video captures the epic scale and beauty of mountain hiking.</p>
+            <div class="video-container">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/S-z_R9ODMLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Requirement: On-page anchor target -->
+        <div id="tableau-section" class="content-block">
+            <!-- UPDATED Tableau graph about National Parks -->
+            <h2>Live Data: National Parks</h2>
+            <p>National Parks are a great place to look for hikes!</p>
+            
+            <div class='tableauPlaceholder' id='viz1754447851425' style='position: relative'><noscript><a href='#'><img alt='Most Popular NPS Parks ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;NationalParkServiceCentennial&#47;MostPopularNPSParks&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NationalParkServiceCentennial&#47;MostPopularNPSParks' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;NationalParkServiceCentennial&#47;MostPopularNPSParks&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div><script type='text/javascript'>var divElement = document.getElementById('viz1754447851425');var vizElement = divElement.getElementsByTagName('object')[0];if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1094px';}var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+
+    </div>
+
+</body>
+</html>

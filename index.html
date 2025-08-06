@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Davis | Web Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&w=2070&auto=format&fit=crop') center center/cover no-repeat;
+            height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .resume-section {
+            padding: 60px 0;
+        }
+        .resume-item {
+            background-color: #343a40;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #495057;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Jonathan Davis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Résumé</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- This link takes you to the "from-scratch" page -->
+                        <a class="nav-link" href="pages/scratch.html" target="_blank">Personal Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="display-3">Jonathan Davis</h1>
+            <p class="lead">Aspiring Entrepreneur in Finance & Technology</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- About Section -->
+        <section id="about" class="text-center mb-5">
+            <h2 class="mb-4">About Me</h2>
+            <img src="pages/img/profile.jpg" alt="Jonathan Davis" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+            <p class="lead col-md-8 mx-auto">
+                I am a passionate student at Brigham Young University studying Information Systems. I thrive on building elegant web solutions and uncovering insights from data. This website is a showcase of the skills I've developed in my IS 201 course.
+            </p>
+        </section>
+
+        <!-- HTML Résumé Section -->
+        <section id="resume" class="resume-section bg-black">
+            <h2 class="text-center mb-5">My Résumé</h2>
+            <div class="row">
+                <!-- Education -->
+                <div class="col-md-6 mb-4">
+                    <div class="resume-item">
+                        <h3><i class="fas fa-graduation-cap me-2"></i>Education</h3>
+                        <hr>
+                        <h5>Brigham Young University</h5>
+                        <p class="text-muted">Provo, UT | Expected April 2027</p>
+                        <p>Bachelor of Science in Accounting</p>
+                        <ul>
+                            <li><strong>Relevant Coursework:</strong> Financial Accounting, Managerial Accounting, Business Law, Corporate Finance.</li>
+                            <li><strong>GPA:</strong> 4.0/4.0</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="col-md-6 mb-4">
+                    <div class="resume-item">
+                        <h3><i class="fas fa-briefcase me-2"></i>Work Experience</h3>
+                        <hr>
+                        <h5>Assistant Manager</h5>
+                        <p class="text-muted">Snow Peak Construction | Oct 2024 - Present</p>
+                        <ul>
+                            <li>Perform tear-out, renovation, and handyman work.</li>
+                            <li>Self-managed projects and responsibilities.</li>
+                        </ul>
+                        <h5>Framer</h5>
+                        <p class="text-muted">Magleby Construction | May 2022 - Oct 2022</p>
+                        <ul>
+                            <li>Handled construction responsibilities within a crew.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Leadership & Service -->
+                <div class="col-md-6 mb-4">
+                     <div class="resume-item">
+                        <h3><i class="fa-solid fa-handshake-angle me-2"></i>Leadership & Service</h3>
+                        <hr>
+                        <h5>Volunteer Representative</h5>
+                        <p class="text-muted">Querétaro, Mexico | Oct 2022 - Oct 2024</p>
+                        <ul>
+                            <li>Led teams of 4-30 volunteers to set and achieve goals.</li>
+                            <li>Adapted plans, provided feedback, and improved processes.</li>
+                            <li>Embraced a new culture and achieved fluency in Spanish.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Skills -->
+                <div class="col-md-6 mb-4">
+                    <div class="resume-item">
+                        <h3><i class="fas fa-cogs me-2"></i>Skills</h3>
+                        <hr>
+                        <p>
+                            <span class="badge bg-primary p-2 m-1">Web Dev (HTML/CSS)</span>
+                            <span class="badge bg-secondary p-2 m-1">Tableau</span>
+                            <span class="badge bg-success p-2 m-1">Excel (VBA, Solver)</span>
+                            <span class="badge bg-danger p-2 m-1">SQL</span>
+                            <span class="badge bg-warning text-dark p-2 m-1">Database Modeling</span>
+                            <span class="badge bg-info p-2 m-1">Flowcharting</span>
+                            <span class="badge bg-light text-dark p-2 m-1">Statistics</span>
+                            <span class="badge bg-dark border border-light p-2 m-1">Fluent Spanish</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white py-4">
+        <div class="container">
+            <p>Connect with me on LinkedIn:</p>
+            <!-- UPDATED LinkedIn button with your profile link -->
+            <a href="https://www.linkedin.com/in/jonathan-davis-96b319334/" target="_blank" class="btn btn-outline-light btn-floating m-1" role="button"><i class="fab fa-linkedin-in"></i></a>
+            <p class="mt-3">Copyright &copy; 2025 Jonathan Davis. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
